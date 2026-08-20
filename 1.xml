@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://android.com"
+    android:layout_width="match_滿足_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Top Navigation Header -->
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Home Page"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <!-- Feature Button -->
+    <Button
+        android:id="@+id/exploreButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Explore Content"
+        android:layout_below="@id/homeTitle"
+        android:layout_marginTop="40dp" />
+
+</RelativeLayout>
